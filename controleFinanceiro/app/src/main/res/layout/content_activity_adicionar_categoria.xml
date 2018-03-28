@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.senaijandira.controlefinanceiro.activity_adicionar_categoria"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="173dp"
+        android:background="@color/colorBox"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@color/colorZul"
+            android:paddingVertical="5dp"
+            android:text="Categoria:"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="178dp"
+            android:layout_height="33dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:padding="5dp"
+            android:text="Descrição"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorOrange" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="163dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorBox"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginTop="10dp"
+            android:text="Adicione um valor:"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3px"
+            android:layout_marginTop="30dp"
+            android:background="@color/colorOrange" />
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/fab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_margin="@dimen/fab_margin"
+            android:tint="@color/colorOrange"
+            app:backgroundTint="@color/colorZul"
+            app:srcCompat="@android:drawable/ic_input_add" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="100dp">
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@color/colorPrimary"
+            android:text="SALVAR" />
+
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="70dp"
+            android:background="@color/colorOrange"
+            android:text="CANCELAR" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

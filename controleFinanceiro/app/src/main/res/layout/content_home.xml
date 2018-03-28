@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.senaijandira.controlefinanceiro.HomeActivity"
+    tools:showIn="@layout/activity_home"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:padding="16dp"
+    >
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="95dp"
+        android:layout_marginTop="50dp"
+        >
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBox"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="174dp"
+            android:layout_height="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="35dp"
+                android:text="Começo do Mês" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="175dp"
+            android:layout_height="25dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="20dp"
+                android:layout_marginLeft="25dp"
+                android:text="Valor Atual do Salário" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="111dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/colorBox"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Adicionado este mês"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="116dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/colorBox"
+        >
+
+
+        <TextView
+            android:layout_width="168dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="100dp"
+            android:text="Gastos Mensais"
+            android:textAlignment="center"
+            android:textSize="15dp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:layout_marginTop="5dp">
+
+        <Button
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorPrimary"
+            android:text="Adicionar"
+            android:textColor="@color/colorBox"
+
+            android:onClick="mudarTela"
+            />
+
+        <Button
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBox"
+            android:text="Editar" />
+
+        <Button
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="19dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/colorBottonExcluir"
+            android:text="Excluir"
+            android:textColor="@color/colorBox" />
+
+    </LinearLayout>
+
+</LinearLayout>
+
