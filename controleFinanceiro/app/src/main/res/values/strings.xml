@@ -1,6 +1,40 @@
 <resources>
     <string name="app_name">Controle Financeiro</string>
     <string name="action_settings" translatable="false">Settings</string>
-    <string name="title_activity_home" translatable="false">Titulo (primeira página)</string>
+    <string name="title_activity_home" translatable="false">Home</string>
     <string name="title_activity_adicionar_categoria">Adicionar Categoria</string>
+    <string name="title_activity_cadastrar_ganho_">Cadastrar ganho</string>
+    <string name="title_activity_mudar_tela"></string>
+
+    <string-array name="ganho">
+        <item> Janeiro </item>
+        <item> Fevereiro </item>
+        <item> Março</item>
+        <item> Abril </item>
+        <item> Maio </item>
+        <item> Junho </item>
+        <item> Julho </item>
+        <item> Agosto </item>
+        <item> Setembro </item>
+        <item> Outubro </item>
+        <item> Novembro </item>
+        <item> Dezembro </item>
+    </string-array>
+
+    <string-array name="categoria">
+        <item> Alimentos </item>
+        <item> Contas </item>
+        <item> IPTU </item>
+        <item> IPVA </item>
+        <item> Casa </item>
+        <item> Filhos </item>
+        <item> Eu </item>
+        <item> Lazer </item>
+        <item> Festas </item>
+        <item> Viagens </item>
+        <item> Academia </item>
+        <item> Animal de estimação </item>
+    </string-array>
+
+
 </resources>

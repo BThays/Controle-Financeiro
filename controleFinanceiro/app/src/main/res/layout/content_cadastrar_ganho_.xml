@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="br.com.senaijandira.controlefinanceiro.cadastrar_ganho_Activity"
+    tools:showIn="@layout/activity_cadastrar_ganho"
+    android:background="@color/colorAccent"
+    android:orientation="vertical"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Categoria:"
+        android:textSize="20dp"
+        android:background="@color/colorZul"/>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorBox"
+        >
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="Investimento"
+            android:id="@+id/rb_investimento"/>
+
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salário"
+            android:id="@+id/rb_salario"
+            />
+
+        <RadioButton
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:text="Poupança"
+            android:id="@+id/rb_poupanca"/>
+
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:text="Valor ganho:"
+        android:textSize="20sp"
+        android:background="@color/colorZul"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_ganho"
+        android:hint="Adicione um valor"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorBox"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrição:"
+        android:textSize="20sp"
+        android:background="@color/colorZul"
+        />
+
+    <EditText
+        android:id="@+id/txt_descricao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adicione uma Descrição"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorBox"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data:"
+        android:textSize="20sp"
+        android:background="@color/colorZul"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txt_data"
+        android:hint="Adicione uma Data"
+        android:textSize="20sp"
+        android:backgroundTint="@color/colorBox"
+        />
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Confirmar"
+        android:layout_gravity="center"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btn_confirmar"
+        android:onClick="confirmar"/>
+
+</LinearLayout>
